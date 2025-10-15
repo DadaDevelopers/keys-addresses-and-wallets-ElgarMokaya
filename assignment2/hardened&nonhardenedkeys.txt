@@ -1,0 +1,25 @@
+      Non-Hardened (Normal) Keys 
+Non-hardened keys (soft-derived keys) are generated using only the parent public key and a child index number.
+You can derive child public keys from the parent public key alone, without needing the private key.
+
+Wallets and watch-only services can easily generate new addresses if they know just the master public key (xpub).
+
+They are  useful for creating wallets that can receive payments (generate new addresses) but can’t spend them — like hardware wallets or merchant systems.
+
+If someone gets access to both a child private key and the parent public key, they can mathematically derive the parent private key, which compromises the entire branch of that wallet.
+
+Non-hardened keys are convenient but slightly less secure if keys are leaked.
+
+       Hardened Keys
+
+ Hardened keys add an extra layer of protection by using the parent private key in the derivation process instead of the public key.
+
+You cannot generate hardened child public keys from only a parent public key — you must have the parent private key.
+
+Even if someone gets access to a child private key, they cannot reconstruct the parent private key.
+
+Hardened keys are more secure, but slightly less flexible because you can’t derive addresses without private access.
+
+Hardened derivation is usually represented in the derivation path with an apostrophe — e.g.,
+m/44'/0'/0'/0/0
+       

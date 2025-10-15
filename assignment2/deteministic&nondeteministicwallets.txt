@@ -1,0 +1,13 @@
+          Why Deterministic Wallets Are Preferred
+
+Single master seed: All keys are generated from one root seed, simplifying key management.
+
+Easy backup and recovery: You only need to save the seed phrase to restore all wallet addresses and funds.
+
+Predictable key generation: The same seed will always recreate the same addresses on any device.
+
+Better organization: Keys follow a clear hierarchical structure (as defined in BIP-32), making wallets easier to sync and audit.
+
+Lower risk of loss: Non-deterministic wallets create random, unrelated keys, so if the wallet file is lost, the funds are gone forever.
+
+Industry standard: Modern Bitcoin wallets use deterministic (HD) architecture for security, convenience, and interoperability.

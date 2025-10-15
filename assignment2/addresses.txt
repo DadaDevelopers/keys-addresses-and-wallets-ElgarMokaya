@@ -1,0 +1,9 @@
+1. Legacy address:
+mqxVgJFMbVet3S1J6teb9zL65YgbDT6cdi
+
+2. Bech32 (SegWit) address:
+bcrt1qd59cex2cayr8y4edc8s7ysagq4rzlg7hselakg
+
+3. Bech32m (Taproot) address:
+bcrt1pge8zcgdk4af67z89yntn22rgql8htnvtkfgezvn7zzx5zsf3jhfq20tryz
+
